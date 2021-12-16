@@ -33,3 +33,6 @@ ls
 
 nano hosts
 ```
+Step 7:- Add the IP address of Ingress Dashboard followed by space and type "Adityas-website.com"
+
+Step 8:- Application deployed as Kubernetes service using Ingress by going to http://Adityas-website.com
