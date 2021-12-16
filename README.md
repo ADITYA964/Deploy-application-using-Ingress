@@ -1,7 +1,5 @@
 # Deploy-application-using-Ingress
 
-Requirements
-
 Step 1:- Install Ingress Controller in Minikube
 
 ```shell
@@ -11,4 +9,9 @@ Step 2:- Check Ingress Pod
 
 ```shell
 kubectl get pod -n kube-system
+```
+Step 3:- Create Ingress Rule
+
+```shell
+
 ```
