@@ -21,3 +21,6 @@ Step 4:- Check Ingress Dashboard
 ```shell
 kubectl get ingress -n kubernetes-dashboard
 ```
+Step 5:- Copy the Ingress Dashboard address
+
+Step 6:-
