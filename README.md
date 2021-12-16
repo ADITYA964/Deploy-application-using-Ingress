@@ -23,4 +23,13 @@ kubectl get ingress -n kubernetes-dashboard
 ```
 Step 5:- Copy the Ingress Dashboard address
 
-Step 6:-
+Step 6:- Procedure to edit hosts file in Windows
+```shell
+choco install nano   # If nano is not installed
+
+cd C:\Windows\System32\drivers\etc
+
+ls
+
+nano hosts
+```
