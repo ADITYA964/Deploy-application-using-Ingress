@@ -13,5 +13,5 @@ kubectl get pod -n kube-system
 Step 3:- Create Ingress Rule
 
 ```shell
-
+kubectl apply -f dashboard-ingress.yaml
 ```
