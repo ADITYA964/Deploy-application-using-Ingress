@@ -10,3 +10,4 @@ spec:
       paths: 
       - backend:
           serviceName: kubernetes-dashboard
+          servicePort: 80
