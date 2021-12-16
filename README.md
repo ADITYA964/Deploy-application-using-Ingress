@@ -15,3 +15,9 @@ Step 3:- Create Ingress Rule
 ```shell
 kubectl apply -f dashboard-ingress.yaml
 ```
+
+Step 4:- Check Ingress Dashboard
+
+```shell
+kubectl get ingress -n kubernetes-dashboard
+```
