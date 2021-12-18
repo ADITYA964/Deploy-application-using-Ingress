@@ -58,7 +58,7 @@ kubectl create deployment prostate-app --image=adityax123/adityas-docker-images:
 ```
 Step 5:-
 ```shell
-kubectl expose deployment prostate-app--type=LoadBalancer --port=80 --target-port 8501
+kubectl expose deployment prostate-app--type=NodePort --port=80 --target-port 8501
 ```
 
 Step 6:-
