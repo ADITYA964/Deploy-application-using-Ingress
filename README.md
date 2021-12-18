@@ -38,7 +38,7 @@ Step 7:- Add the IP address of Ingress Dashboard followed by space and type "Adi
 Step 8:- Application deployed as Kubernetes service using Ingress by going to http://Adityas-Website.com
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Deploy application using Ingress using Docker image
+## Deploy application using Ingress from Docker image
 
 Step 1:-
 ```shell
