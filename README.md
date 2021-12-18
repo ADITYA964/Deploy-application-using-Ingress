@@ -36,3 +36,36 @@ nano hosts
 Step 7:- Add the IP address of Ingress Dashboard followed by space and type "Adityas-website.com"
 
 Step 8:- Application deployed as Kubernetes service using Ingress by going to http://Adityas-Website.com
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Deploy application using Ingress using Docker image
+
+Step 1:-
+```shell
+minikube start --vm-driver=docker
+```
+Step 2:-
+```shell
+minikube addons enable ingress
+```
+Step 3:-
+```shell
+kubectl get pods -n ingress-nginx
+```
+Step 4:-
+```shell
+kubectl create deployment prostate-app --image=adityax123/adityas-docker-images:1.0.0
+```
+Step 5:-
+```shell
+kubectl expose deployment prostate-app--type=LoadBalancer --port=80 --target-port 8501
+```
+
+Step 6:-
+```shell
+kubectl get service prostate-cancer-service-two 
+```
+Step 7:-
+```shell
+minikube service prostate-cancer-service-two --url 
+```
